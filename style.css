@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.link .main-box-1 img,
+.link .main-box-2 img{
+    animation: wiggle 3s linear infinite;
+}
+.blog-3 .main-box .col-span-2 .box .images img {
+    animation: wiggle 3s linear infinite;
+}
+
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-7deg);
+    }
+
+    20% {
+        transform: rotateZ(7deg);
+    }
+
+    25% {
+        transform: rotateZ(-7deg);
+    }
+
+    30% {
+        transform: rotateZ(7deg);
+    }
+
+    35% {
+        transform: rotateZ(-7deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    header .logo {
+        width: 150px;
+        margin: auto;
+    }
+
+    header .logo img {
+        width: 100%;
+    }
+
+    .link {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    .link h1 {
+        font-size: 20px;
+    }
+
+    .blog-1 {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    .blog-1 .main-box-1 {
+        width: 100%;
+    }
+
+    .blog-1 .main-box-1 .left,
+    .blog-1 .main-box-1 .right {
+        width: 100%;
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    .blog-1 .main-box-1 .right h1 {
+        font-size: 20px;
+        padding: 5px 0px !important;
+    }
+
+    .blog-1 .main-box-1 .right p {
+        font-size: 14px;
+        padding: 0px !important;
+    }
+
+    .blog-1 .main-box-2 .left,
+    .blog-1 .main-box-2 .right {
+        width: 100%;
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    .blog-1 .main-box-2 .left h1,
+    .blog-1 .main-box-2 .right h1 {
+        font-size: 18px;
+        padding: 5px 0px !important;
+    }
+
+    .blog-1 .main-box-2 .left p,
+    .blog-1 .main-box-2 .right p {
+        font-size: 14px;
+        padding: 0px !important;
+    }
+
+    .blog-2 {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    .blog-2 h1 {
+        font-size: 20px;
+        text-align: center;
+        padding: 5px 0px !important;
+    }
+
+    .blog-2 p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0px !important;
+    }
+
+    .blog-2 .main-box {
+        width: 100% !important;
+    }
+
+    .blog-2 .main-box .box {
+        width: 100%;
+    }
+
+    .blog-2 .main-box .box .images {
+        width: 95%;
+        margin: auto;
+    }
+
+    .blog-2 .main-box .box .images img {
+        width: 100%;
+    }
+
+    .blog-3 {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    .blog-3 h1 {
+        font-size: 20px !important;
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    .blog-3 p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .blog-3 .main-box {
+        display: inline-block;
+    }
+
+    .blog-3 .main-box .col-span-2 {
+        width: 33.3%;
+        float: left;
+    }
+
+    .blog-3 .main-box .col-span-2 .box {
+        width: 85%;
+        margin: 5px auto;
+    }
+
+    .blog-3 .main-box .col-span-2 .box .images,
+    .blog-3 .main-box .col-span-2 .box .images img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    header .logo {
+        width: 150px;
+        margin: auto;
+    }
+
+    header .logo img {
+        width: 100%;
+    }
+
+    .link {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    .link h1 {
+        font-size: 20px;
+    }
+
+    .blog-1 {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    .blog-1 .main-box-1 {
+        width: 100%;
+    }
+
+    .blog-1 .main-box-1 .left,
+    .blog-1 .main-box-1 .right {
+        width: 100%;
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    .blog-1 .main-box-1 .right h1 {
+        font-size: 20px;
+        padding: 5px 0px !important;
+    }
+
+    .blog-1 .main-box-1 .right p {
+        font-size: 14px;
+        padding: 0px !important;
+    }
+
+    .blog-1 .main-box-2 .left,
+    .blog-1 .main-box-2 .right {
+        width: 100%;
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    .blog-1 .main-box-2 .left h1,
+    .blog-1 .main-box-2 .right h1 {
+        font-size: 18px;
+        padding: 5px 0px !important;
+    }
+
+    .blog-1 .main-box-2 .left p,
+    .blog-1 .main-box-2 .right p {
+        font-size: 14px;
+        padding: 0px !important;
+    }
+
+    .blog-2 {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    .blog-2 h1 {
+        font-size: 20px;
+        text-align: center;
+        padding: 5px 0px !important;
+    }
+
+    .blog-2 p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0px !important;
+    }
+
+    .blog-2 .main-box {
+        width: 100% !important;
+    }
+
+    .blog-2 .main-box .box {
+        width: 50%;
+        float: left;
+    }
+
+    .blog-2 .main-box .box .images {
+        width: 95%;
+        margin: auto;
+    }
+
+    .blog-2 .main-box .box .images img {
+        width: 100%;
+    }
+
+    .blog-3 {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+
+    .blog-3 h1 {
+        font-size: 20px !important;
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    .blog-3 p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .blog-3 .main-box {
+        display: inline-block;
+    }
+
+    .blog-3 .main-box .col-span-2 {
+        width: 33.3%;
+        float: left;
+    }
+
+    .blog-3 .main-box .col-span-2 .box {
+        width: 85%;
+        margin: 5px auto;
+    }
+
+    .blog-3 .main-box .col-span-2 .box .images,
+    .blog-3 .main-box .col-span-2 .box .images img {
+        width: 100%;
+    }
+}
